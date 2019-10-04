@@ -66,11 +66,45 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.logo{
+    margin:
+    display:flex;
+    width: 20%;
+    justify-content: space-between
+    margin: 0 2% 20px;
+}
+.container1 {
     width: 800px;
     margin: 0 auto;
-}
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 
+}
+.container2 {
+    width: 800px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-image{
+    display:flex;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.links{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+    color:black;
+      }
+.links a {
+    color:black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +138,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+        #box1{
+            background-color: teal;
+        }
+        #box2{
+            background-color: gold;}
+
+        #box3{
+                background-color:cadetblue;
+        }
+        #box4{
+            background-color:coral;
+        }
+        #box5{
+            background-color:crimson;
+        }
+
+        #box6{
+            background-color:forestgreen;
+        }
+        #box7{
+            background-color:darkorchid;
+        }
+        #box8{
+            background-color:hotpink;
+        }
+        #box9{
+            background-color:indigo;
+        }
+        #box10{
+            background-color:dodgerblue;
+        }
 
 .bottom-content {
     display: flex;
@@ -127,8 +191,12 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 65%;
+    height: auto;
     background: black;
+    display:flex;
+    justify-content:center;
+    margin: 0 auto;
 }
 
 footer nav {
@@ -143,4 +211,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+#about{
+    display: flex;
+    justify-content: center;
+}
+.abouttext{
+    width:65%;
+    height:auto;
+}
+#work{
+    display: flex;
+    justify-content: center;
+}
+.workText{
+    width:65%;
+    height:auto;
+}
+button{
+    background-color: white;
+  border: 2px solid black;
+  color:black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 10px;
+}
+.container2{
+    padding:10px;   
 }
